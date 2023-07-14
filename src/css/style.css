@@ -413,6 +413,12 @@ section#portfolio .btn-km:hover {
 
 .form {
    background: rgba(255,102,169,1);
+   min-height: 50vh;
+}
+
+.form iframe {
+    width: 100vw;
+    height: 45vh;
 }
 
 #cm-contact {
