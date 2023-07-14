@@ -411,12 +411,12 @@ section#portfolio .btn-km:hover {
     display: none;
 }
 
-.form {
+#form {
    background: rgba(255,102,169,1);
    min-height: 50vh;
 }
 
-.form iframe {
+#form iframe {
     width: 100vw;
     height: 45vh;
 }
