@@ -48,6 +48,7 @@
         padding: 7px 12px;
         font-size: 12px;
         width: 100px;
+        justify-content: center;
     }
     .container {
         padding: 10px;
@@ -161,10 +162,10 @@
         margin-top: 10px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -195,6 +196,7 @@
         padding: 7px 12px;
         font-size: 12px;
         width: 100px;
+        justify-content: center;
     }
     .container {
         padding: 10px;
@@ -309,10 +311,10 @@
         margin-top: 10px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -330,19 +332,17 @@
     #mobile-home .title {
         font-size: 40px;
         margin-top: 10px;
-        margin-bottom: 0;
+        margin-bottom: 90px;
     }
     #mobile-home .subtitle {
-        font-size: 50px;
-    }
-    #mobile-home .description {
-        margin-top: 0;
-        text-align: justify;
-        font-size: 15px;
+        font-size: 30px;
     }
     #mobile-home .btn-km {
         padding: 10px 15px;
         font-size: 13px;
+        display: flex;
+        width: 120px;
+        justify-content: center;
     }
     .container {
         padding: 10px;
@@ -352,11 +352,12 @@
     }
     #about-us .about-title::after {
         width: 40%;
-        top: 53px;
+        top: 55px;
         left: 31.5%;
     }
     #about-us .about-subtitle {
-        font-size: 38px;
+        margin-top: 10px;
+        font-size: 25px;
     }
     #about-us .about-text p {
         font-size: 15px;
@@ -374,7 +375,7 @@
         min-height: 100vh;
     }
     #services .about-title {
-        font-size: 40px;
+        font-size: 30px;
     }
     #services .about-title::after {
         top: 35px;
@@ -456,10 +457,10 @@
         margin-top: 10px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -476,20 +477,18 @@
     }
     #mobile-home .title {
         font-size: 45px;
-        margin-top: 15px;
-        margin-bottom: 0;
+        margin-top: 25px;
+        margin-bottom: 100px;
     }
     #mobile-home .subtitle {
-        font-size: 60px;
-    }
-    #mobile-home .description {
-        margin-top: 0;
-        text-align: justify;
-        font-size: 17px;
+        font-size: 30px;
     }
     #mobile-home .btn-km {
         padding: 10px 15px;
         font-size: 13px;
+        display: flex;
+        justify-content: center;
+        width: 150px;
     }
     .container {
         padding: 10px;
@@ -499,11 +498,12 @@
     }
     #about-us .about-title::after {
         width: 40%;
-        top: 55px;
+        top: 60px;
         left: 31.5%;
     }
     #about-us .about-subtitle {
-        font-size: 40px;
+        margin-top: 10px;
+        font-size: 25px;
     }
     #about-us .about-text p {
         font-size: 17px;
@@ -521,7 +521,7 @@
         min-height: 100vh;
     }
     #services .about-title {
-        font-size: 42px;
+        font-size: 30px;
     }
     #services .about-title::after {
         top: 37px;
@@ -603,10 +603,10 @@
         margin-top: 10px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -622,22 +622,20 @@
         
     }
     #mobile-home .title {
-        font-size: 45px;
+        font-size: 40px;
         margin-top: 15px;
-        margin-bottom: 0;
+        margin-bottom: 80px;
     }
     #mobile-home .subtitle {
-        font-size: 55px;
-    }
-    #mobile-home .description {
-        margin-top: 0;
-        text-align: justify;
-        font-size: 14px;
-        width: 330px;
+        font-size: 35px;
     }
     #mobile-home .btn-km {
         padding: 10px 15px;
         font-size: 13px;
+        display: flex;
+        width: 150px;
+        justify-content: center;
+        margin-top: 120px;
     }
     .container {
         padding: 10px;
@@ -647,11 +645,12 @@
     }
     #about-us .about-title::after {
         width: 40%;
-        top: 57px;
+        top: 60px;
         left: 31.5%;
     }
     #about-us .about-subtitle {
-        font-size: 42px;
+        margin-top: 10px;
+        font-size: 25px;
     }
     #about-us .about-text p {
         font-size: 18px;
@@ -669,7 +668,7 @@
         min-height: 100vh;
     }
     #services .about-title {
-        font-size: 44px;
+        font-size: 30px;
     }
     #services .about-title::after {
         top: 39px;
@@ -751,10 +750,10 @@
         margin-top: 10px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -772,20 +771,17 @@
     #mobile-home .title {
         font-size: 45px;
         margin-top: 15px;
-        margin-bottom: 0;
+        margin-bottom: 90px;
     }
     #mobile-home .subtitle {
-        font-size: 55px;
-    }
-    #mobile-home .description {
-        margin-top: 0;
-        text-align: justify;
-        font-size: 17px;
-        width: 350px;
+        font-size: 40px;
     }
     #mobile-home .btn-km {
         padding: 10px 15px;
         font-size: 13px;
+        display: flex;
+        justify-content: center;
+        width: 150px;
     }
     .container {
         padding: 10px;
@@ -795,11 +791,12 @@
     }
     #about-us .about-title::after {
         width: 40%;
-        top: 58px;
+        top: 65px;
         left: 31.5%;
     }
     #about-us .about-subtitle {
-        font-size: 42px;
+        margin-top: 10px;
+        font-size: 30px;
     }
     #about-us .about-text p {
         font-size: 19px;
@@ -817,7 +814,7 @@
         min-height: 100vh;
     }
     #services .about-title {
-        font-size: 45px;
+        font-size: 30px;
     }
     #services .about-title::after {
         top: 40px;
@@ -895,10 +892,10 @@
         margin-top: 10px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -920,12 +917,6 @@
     }
     #mobile-home .subtitle {
         font-size: 55px;
-    }
-    #mobile-home .description {
-        margin-top: 0;
-        text-align: justify;
-        font-size: 19px;
-        width: 360px;
     }
     #mobile-home .btn-km {
         padding: 15px 20px;
@@ -1040,10 +1031,10 @@
         margin-top: 10px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -1065,12 +1056,6 @@
     }
     #mobile-home .subtitle {
         font-size: 60px;
-    }
-    #mobile-home .description {
-        margin-top: 0;
-        text-align: justify;
-        font-size: 22px;
-        width: 500px;
     }
     #mobile-home .btn-km {
         margin-top: 20px;
@@ -1187,10 +1172,10 @@
         margin-top: 15px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -1212,12 +1197,6 @@
     }
     #mobile-home .subtitle {
         font-size: 65px;
-    }
-    #mobile-home .description {
-        margin-top: 0;
-        text-align: justify;
-        font-size: 24px;
-        width: 600px;
     }
     #mobile-home .btn-km {
         margin-top: 40px;
@@ -1339,10 +1318,10 @@
         margin-top: 15px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
@@ -1495,10 +1474,10 @@
         margin-top: 15px;
     }
     .collapsing {
-        background: #181818;
+        background: rgb(255,101,241);
     }
     div.collapse.show {
-        background: #181818;
+        background: rgb(255,101,241);
         margin-top: 10px;
     }
     div.collapse.show .navbar-nav {
