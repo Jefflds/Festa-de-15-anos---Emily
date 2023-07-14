@@ -404,6 +404,17 @@ section#portfolio .btn-km:hover {
     text-decoration: none;
 }
 
+#about-us .img-dizeres2 {
+    display: none;
+}
+#about-us .img-dizeres3 {
+    display: none;
+}
+
+.form {
+   background: rgba(255,102,169,1);
+}
+
 #cm-contact {
     background: rgba(221, 86, 221, 0.8);
     align-items: center;
