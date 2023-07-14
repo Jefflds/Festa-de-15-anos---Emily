@@ -807,7 +807,7 @@
         line-height: 20px;
     }
     #about-us button {
-        padding: 7px 12px;
+        padding: 12px 12px;
         font-size: 12px;
     }
     #services {
@@ -921,6 +921,8 @@
     #mobile-home .btn-km {
         padding: 15px 20px;
         font-size: 15px;
+        display: flex;
+        justify-content: center;
     }
     .container {
         padding: 10px;
