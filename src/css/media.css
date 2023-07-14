@@ -923,6 +923,7 @@
         font-size: 15px;
         display: flex;
         justify-content: center;
+        width: 150px;
     }
     .container {
         padding: 10px;
@@ -932,11 +933,12 @@
     }
     #about-us .about-title::after {
         width: 40%;
-        top: 60px;
+        top: 65px;
         left: 31.5%;
     }
     #about-us .about-subtitle {
-        font-size: 45px;
+        margin-top: 15px;
+        font-size: 35px;
     }
     #about-us .about-text p {
         font-size: 20px;
@@ -954,7 +956,7 @@
         min-height: 100vh;
     }
     #services .about-title {
-        font-size: 45px;
+        font-size: 35px;
     }
     #services .about-title::after {
         top: 40px;
