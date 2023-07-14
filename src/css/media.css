@@ -1056,15 +1056,18 @@
     #mobile-home .title {
         font-size: 50px;
         margin-top: 50px;
-        margin-bottom: 0;
+        margin-bottom: 70px;
     }
     #mobile-home .subtitle {
-        font-size: 60px;
+        font-size: 45px;
     }
     #mobile-home .btn-km {
         margin-top: 20px;
         padding: 15px 35px;
         font-size: 20px;
+        display: flex;
+        width: 200px;
+        justify-content: center;
     }
     .container {
         padding: 10px;
@@ -1078,7 +1081,8 @@
         left: 31.5%;
     }
     #about-us .about-subtitle {
-        font-size: 55px;
+        margin-top: 10px;
+        font-size: 30px;
     }
     #about-us .about-text p {
         font-size: 22px;
@@ -1097,7 +1101,7 @@
     }
     #services .about-title {
         margin-top: 5px;
-        font-size: 55px;
+        font-size: 50px;
     }
     #services .about-title::after {
         top: 60px;
@@ -1109,7 +1113,7 @@
         width: 530px;
         padding: 5px;
         margin: 5px 0;
-        height: 500px;
+        height: 350px;
     }
     #services .card i {
         font-size: 50px;
@@ -1196,7 +1200,7 @@
     }
     #mobile-home .title {
         font-size: 55px;
-        margin-top: 55px;
+        margin-top: calc(60vh + 30px);
         margin-bottom: 0;
     }
     #mobile-home .subtitle {
@@ -1204,8 +1208,12 @@
     }
     #mobile-home .btn-km {
         margin-top: 40px;
-        padding: 20px 40px;
+        padding: 15px 40px;
         font-size: 24px;
+        display: flex;
+        width: 250px;
+        justify-content: center;
+
     }
     .container {
         padding: 10px;
@@ -1220,7 +1228,8 @@
         left: 31.5%;
     }
     #about-us .about-subtitle {
-        font-size: 60px;
+        margin-top: 10px;
+        font-size: 40px;
     }
     #about-us .about-text p {
         font-size: 25px;
@@ -1240,7 +1249,7 @@
     }
     #services .about-title {
         margin-top: 10px;
-        font-size: 65px;
+        font-size: 50px;
     }
     #services .about-title::after {
         top: 70px;
@@ -1252,7 +1261,7 @@
         width: 550px;
         padding: 5px;
         margin: 5px 0;
-        height: 500px;
+        height: 380px;
     }
     #services .card i {
         font-size: 50px;
@@ -1332,40 +1341,30 @@
         width: 100vw;
         margin-left: 0;
     }
-    #mainSlider .carousel-caption  {
-        padding-top: 0;
-        top: 18%;
-        left: 80px;
+    #home-desktop {
+        display: none;
     }
-    #mainSlider .slide-content .carousel-caption h2 {
-        margin-right: 145px;
+    #mobile-home {
+        display: block;
+        height: 100vh;
+        
     }
-    .slide-content .text-div {
-        width: 300px;
-        margin-left: 0px;
-        margin-right: 0!important;
+    #mobile-home .title {
+        font-size: 55px;
+        margin-top: 60vh;
+        margin-bottom: 0;
     }
-    #mainSlider .carousel-caption p{
-        font-size: 14px;
-    
+    #mobile-home .subtitle {
+        font-size: 65px;
     }
-    #mainSlider .carousel-caption .btn-km {
-        margin-right: 418px;
-    }
-    #mainSlider div.slide-content-2 .carousel-caption{
-        left: 0px;
-    }
-    #mainSlider .slide-content-2 .carousel-caption h2 {
-        margin-left: 0px;
-        margin-right: 50px;
-    }
-    .slide-content-2 .text-div {
+    #mobile-home .btn-km {
+        margin-top: 40px;
+        padding: 15px 40px;
+        font-size: 24px;
+        display: flex;
         width: 250px;
-        margin-left: 80px;
-        font-size: 10px;
-    }
-    #mainSlider .slide-content-2 .btn-km {
-        margin-right: 360px;
+        justify-content: center;
+
     }
     .container {
         padding: 10px;
@@ -1376,11 +1375,11 @@
     }
     #about-us .about-title::after {
         width: 40%;
-        top: 110px;
+        top: 115px;
         left: 31.5%;
     }
     #about-us .about-subtitle {
-        font-size: 40px;
+        font-size: 35px;
     }
     #about-us .about-text p {
         font-size: 15px;
@@ -1397,7 +1396,7 @@
     }
     #services .about-title {
         margin-top: 20px;
-        font-size: 70px;
+        font-size: 60px;
     }
     #services .about-title::after {
         top: 85px;
@@ -1408,7 +1407,7 @@
     #services .card {
         width: 220px;
         padding: 5px;
-        height: 400px;
+        height: 300px;
     }
     #services .card i {
         font-size: 25px;
@@ -1488,39 +1487,30 @@
         width: 100vw;
         margin-left: 0;
     }
-    #mainSlider .carousel-caption  {
-        padding-top: 0;
-        top: 18%;
-        left: 90px;
+    #home-desktop {
+        display: none;
     }
-    #mainSlider .slide-content .carousel-caption h2 {
-        width: 415px;
+    #mobile-home {
+        display: block;
+        height: 100vh;
+        
     }
-    .slide-content .text-div {
-        width: 412px;
-        margin-left: 0px;
-        margin-right: 0!important;
+    #mobile-home .title {
+        font-size: 55px;
+        margin-top: 67vh;
+        margin-bottom: 0;
     }
-    #mainSlider .carousel-caption p{
-        font-size: 14px;
-    
+    #mobile-home .subtitle {
+        font-size: 65px;
     }
-    #mainSlider .carousel-caption .btn-km {
-        margin-right: 626px;
-    }
-    #mainSlider div.slide-content-2 .carousel-caption{
-        left: 0px;
-    }
-    #mainSlider .slide-content-2 .carousel-caption h2 {
-        width: 565px;
-    }
-    .slide-content-2 .text-div {
-        width: 330px;
-        margin-left: 110px;
-        font-size: 10px;
-    }
-    #mainSlider .slide-content-2 .btn-km {
-        margin-right: 360px;
+    #mobile-home .btn-km {
+        margin-top: 40px;
+        padding: 15px 40px;
+        font-size: 24px;
+        display: flex;
+        width: 250px;
+        justify-content: center;
+
     }
     .container {
         padding: 10px;
@@ -1531,7 +1521,7 @@
     }
     #about-us .about-title::after {
         width: 40%;
-        top: 110px;
+        top: 115px;
         left: 31.5%;
     }
     #about-us .about-subtitle {
@@ -1550,6 +1540,12 @@
         font-size: 20px;
         margin-bottom: 10px;
     }
+    #about-us .img-dizeres2 {
+        display: none;
+    }
+    #about-us .img-dizeres3 {
+        display: none;
+    }
     #services .about-title {
         margin-top: 20px;
         font-size: 70px;
@@ -1563,7 +1559,7 @@
     #services .card {
         width: 300px;
         padding: 5px;
-        height: 400px;
+        height: 330px;
     }
     #services .card i {
         font-size: 27px;
@@ -1627,7 +1623,13 @@
         margin-left: 725px;
     }
     #mainSlider .slide-content-2 .carousel-caption h2 {
-        margin-left: 165px;
+        margin-left: 365px;
+    }
+    #about-us .img-dizeres2 {
+        display: none;
+    }
+    #about-us .img-dizeres3 {
+        display: none;
     }
 }
 
@@ -1647,6 +1649,12 @@
     }
     #mainSlider .slide-content-2 .carousel-caption h2 {
         margin-left: 170px;
+    }
+    #about-us .img-dizeres2 {
+        display: none;
+    }
+    #about-us .img-dizeres3 {
+        display: none;
     }
 }
 
@@ -1670,6 +1678,12 @@
     #mainSlider .slide-content .carousel-caption .btn-km {
         margin-right: 600px;
     }
+    #about-us .img-dizeres2 {
+        display: none;
+    }
+    #about-us .img-dizeres3 {
+        display: none;
+    }
 }
 @media screen and (min-width: 2560px) and (max-width: 3439px){
     #mainSlider .slide-content .carousel-caption h2 {
@@ -1691,6 +1705,12 @@
     }
     #mainSlider .slide-content .carousel-caption .btn-km {
         margin-right: 1300px;
+    }
+    #about-us .img-dizeres2 {
+        display: none;
+    }
+    #about-us .img-dizeres3 {
+        display: none;
     }
 }
 
@@ -1722,6 +1742,12 @@
         margin-right: 1200px;
         padding: 20px 150px;
     }
+    #about-us .img-dizeres2 {
+        display: none;
+    }
+    #about-us .img-dizeres3 {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 3840px) {
@@ -1751,5 +1777,11 @@
     #mainSlider .slide-content .carousel-caption .btn-km, #mainSlider .slide-content-2 .carousel-caption .btn-km {
         margin-right: 1200px;
         padding: 20px 150px;
+    }
+    #about-us .img-dizeres2 {
+        display: none;
+    }
+    #about-us .img-dizeres3 {
+        display: none;
     }
 }
